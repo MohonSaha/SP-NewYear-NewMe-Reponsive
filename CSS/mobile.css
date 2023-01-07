@@ -18,7 +18,7 @@
     .navbar {
         display: flex;
         flex-direction: column;
-        position: fixed;
+        overflow: hidden;
         background-color: rgba(8, 135, 247, 0.247);
         width: 100vw;
         padding-bottom: 10px;
@@ -75,6 +75,7 @@
     padding-right: 10px;
     margin-left: 10px;
     }
+
 
     .banner-title{
         color: black;
@@ -162,7 +163,7 @@
         width: 270px;
 
         /* i faced the problem here. My picture was over the navbar. I solved this problem to set the width.  */
-        
+
         /* position: relative; */
         /* left: -25px; */
     }
