@@ -62,13 +62,28 @@
     }
 
     .right-nav ul li a:hover{
-        background-color: rgb(255, 255, 255);
-        color: rgb(44, 156, 249);
+        background-color: rgb(3, 2, 2);
+        color: rgb(255, 255, 255);
         font-weight: bold;
     }
 
     .banner {
-        display: none;
+        /* display: none; */
+        text-align: center ;  
+    position: relative;
+    top: 30%;
+    padding-right: 10px;
+    margin-left: 10px;
+    }
+
+    .banner-title{
+        color: black;
+        font-size: 45px;
+    }
+    
+    .banner-description{
+        margin: 20px 0px;
+        color: black;
     }
 
     /* Style Failure area  */
@@ -129,8 +144,6 @@
         border-radius: 10px;
     }
 
-
-
     .commitments {
         display: flex;
         flex-direction: column;
@@ -146,8 +159,9 @@
 
     .my-image img {
         order: 1;
-        width: 200px;
+        width: 300px;
         position: relative;
+        left: -25px;
     }
 
 
