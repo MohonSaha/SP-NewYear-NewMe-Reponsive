@@ -159,9 +159,12 @@
 
     .my-image img {
         order: 1;
-        width: 300px;
-        position: relative;
-        left: -25px;
+        width: 270px;
+
+        /* i faced the problem here. My picture was over the navbar. I solved this problem to set the width.  */
+        
+        /* position: relative; */
+        /* left: -25px; */
     }
 
 
