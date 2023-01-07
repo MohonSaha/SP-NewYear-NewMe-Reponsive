@@ -1,55 +1,47 @@
-@media only screen and (max-width:300px) {
-    body {
-        background-color: red;
-    }
 
 
-
-
-
-}
 @media only screen and (min-width: 300px) and (max-width:500px) {
     main {
         max-width: 90vw;
     }
 
-    #header{
+    #header {
         background-image: url(../images/banner/banner3.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         height: 100vh;
         width: 100vw;
-        /* display: none; */
     }
 
     /* Style navbar area  */
-    .navbar{
+    .navbar {
         display: flex;
         flex-direction: column;
     }
 
-    .left-nav, .right-nav ul {
+    .left-nav,
+    .right-nav ul {
         display: flex;
         flex-direction: column;
     }
 
-    .banner{
+    .banner {
         display: none;
     }
 
     /* Style Failure area  */
 
-    .my-failure{
+    .my-failure {
         display: flex;
         flex-direction: column;
     }
 
-    .failure-image img{
+    .failure-image img {
         width: 200px;
     }
 
-    .failure-list{
+    .failure-list {
         /* margin: 0px auto; */
         text-align: center;
     }
@@ -57,15 +49,15 @@
 
     /* Style My plan  */
 
-    .plans-container{
+    .plans-container {
         display: flex;
         flex-direction: column;
-       
+
     }
 
 
     /* Gradient style  */
-    .gradient{
+    .gradient {
         display: none;
     }
 
@@ -73,7 +65,7 @@
     /* Time style  */
 
 
-    .items{
+    .items {
         display: flex;
         flex-direction: column;
     }
@@ -81,48 +73,56 @@
 
     /* Commitment style  */
 
-    .my-commitment{
+    .my-commitment {
         background-color: rgb(251, 235, 226);
-        padding:0px 30px;
+        padding: 0px 30px;
         padding-top: 30px;
+        padding-bottom: 20px;
         border-radius: 10px;
     }
 
-    
 
-    .commitments{
+
+    .commitments {
         display: flex;
         flex-direction: column;
     }
 
-    .child img{
+    .child img {
         width: 42px;
     }
 
-    .targets{
+    .targets {
         order: 2;
     }
 
-    .my-image img{
+    .my-image img {
         order: 1;
         width: 200px;
         position: relative;
-        /* bottom: -4px; */
     }
 
 
     /* Style footer area  */
-    footer{
+    footer {
         background-color: black;
-        height: 70vh;
+        height: 95vh;
         margin-bottom: 0px;
-        display: none;
     }
 
-    .footer-content{
+    .footer-content {
         display: flex;
         flex-direction: column;
+        margin: 20px 20px;
+
     }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
 
     .subscribe input {
         width: 80%;
@@ -132,23 +132,11 @@
         margin-bottom: 15px;
     }
 
-    .section-title{
+    .section-title {
         text-align: center;
         margin-bottom: 60px;
         font-size: 25px;
         font-family: 'Patua One', cursive;
     }
 
-
-
-}
-@media (min-width: 500px) and (max-width:800px) {
-    body {
-        background-color: yellow;
-    }
-}
-@media (min-width: 800px) {
-    body {
-        background-color: green;
-    }
 }
