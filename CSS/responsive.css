@@ -1,0 +1,138 @@
+@media only screen and (max-width:300px) {
+    body {
+        background-color: red;
+    }
+
+
+
+
+
+}
+@media only screen and (min-width: 300px) and (max-width:500px) {
+    main {
+        max-width: 90%;
+    }
+
+    #header{
+        background-image: url(../images/banner/banner3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    /* Style navbar area  */
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-nav, .right-nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    /* Style Failure area  */
+
+    .my-failure{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .failure-image img{
+        width: 200px;
+    }
+
+    .failure-list{
+        margin: 0px auto;
+    }
+
+
+    /* Style My plan  */
+
+    .plans-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* Gradient style  */
+    .gradient{
+        display: none;
+    }
+
+
+    /* Commitment style  */
+
+    .my-commitment{
+        background-color: rgb(251, 235, 226);
+        padding:0px 30px;
+        padding-top: 30px;
+        border-radius: 10px;
+    }
+
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .commitments{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .child img{
+        width: 42px;
+    }
+
+    .targets{
+        order: 2;
+    }
+
+    .my-image img{
+        order: 1;
+        width: 270px;
+        position: relative;
+        bottom: -4px;
+    }
+
+
+    /* Style footer area  */
+    footer{
+        background-color: black;
+        height: 70vh;
+        margin-bottom: 0px;
+        display: none;
+    }
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe input {
+        width: 80%;
+        border: none;
+        padding: 15px;
+        border-radius: 6px;
+        margin-bottom: 15px;
+    }
+
+
+
+}
+@media (min-width: 500px) and (max-width:800px) {
+    body {
+        background-color: yellow;
+    }
+}
+@media (min-width: 800px) {
+    body {
+        background-color: green;
+    }
+}
