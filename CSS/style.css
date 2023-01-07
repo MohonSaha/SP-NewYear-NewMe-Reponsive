@@ -29,11 +29,23 @@ html{
     max-width: 1240px;
     margin: 0px auto;
     padding-top: 15px;
+
 }
 .left-nav img{
     width: 50px;
     border-radius: 50%;
     border: 2px solid white;
+}
+
+.sign-btn{
+    background-color: white;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(64, 148, 251);
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .left-nav, .right-nav ul {
