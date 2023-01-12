@@ -1,0 +1,46 @@
+
+/* Awesome button hover effect  */
+.banner-btn{
+        background-color: white;
+        padding: 12px 14px;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        color: rgb(64, 148, 251);
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+}
+
+.banner-btn::before{
+    content: "";
+    position: absolute;
+    border-top: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;   
+    border-radius: 8px 0px  0px  0px;
+    height: 30%;
+    width: 10%;
+    left: -6px;
+    top: -6px;  
+    transition: all 0.4s;
+}
+
+.banner-btn::after{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;   
+    border-radius:  0px  0px 8px  0px;
+    height: 30%;
+    width: 10%;
+    right: -6px;
+    bottom: -6px;  
+    transition: all 0.4s;
+}
+
+.banner-btn:hover:after, .banner-btn:hover:before{
+    height: 122%;
+    width: 108%;
+    border-radius: 8px;
+}
+
