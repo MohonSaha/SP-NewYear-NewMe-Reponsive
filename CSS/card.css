@@ -104,7 +104,7 @@ a:hover{
     .parent-card{
         position: relative;
         height: 400px;
-        width: 250px;
+        width: 280px;
         left: -10px;
         background-color: #fff;
         transition: 0.3s;
